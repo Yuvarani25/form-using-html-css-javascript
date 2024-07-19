@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <!-- <img src="assert/img.jpg"> -->
+    <form name="validform" action="info.html" method="post" onsubmit="return valid()">
+        <div class="form1">
+            
+            <h1>FORM</h1>
+            <div class="first">
+                <label for="firstname">Firstname</label>
+                <input type="text" id="firstname" name="firstname"><br>
+            </div>
+            <div class="last">
+                <label for="lastname">Lastname</label>
+                <input type="text" id="lastname" name="lastname"><br>
+            </div>
+            <div class="city">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city"><br>
+            </div>
+            <div class="no">
+                <label for="phonenumber">Phonenumber</label>
+                <input type="number" id="number" name="number"><br>
+            </div>
+            <div class="add">
+                <label for="address">Address</label>
+                <textarea type="text" id="address" name="address"></textarea><br>
+            </div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
